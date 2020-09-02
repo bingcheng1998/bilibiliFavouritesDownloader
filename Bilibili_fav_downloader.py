@@ -59,10 +59,10 @@ class Bili_fav:
 if __name__ == '__main__':
 
     # 请输入用户id和收藏夹id
-    user_id = 111111
-    favorites_id = 11111
+    user_id = 747092660
+    favorites_id = 747092660
     # 请输入下载目录
-    output_dir = "/Usr/...."
+    output_dir = "./biliVideo"
 
     my_fav = Bili_fav(user_id, favorites_id)
     my_fav.load_favorites()
