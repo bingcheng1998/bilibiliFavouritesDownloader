@@ -55,13 +55,13 @@ def download(media_id):
     getFav.showFavInfo(title_list)
     for i in range(fav_num):
         if csv.exist(title, bv_list[i]):
-            print(f'视频 {title_list[i]} 已下载')
+            # print(f'视频 《{title_list[i]}》 已下载')
             continue
         if title_list[i] == '已失效视频':
-            print(f'视频 {title_list[i]} 已失效')
+            # print(f'视频 {title_list[i]} 已失效')
             continue
         url = f'https://www.bilibili.com/video/{bv_list[i]}'
-        print(f'开始下载 {title_list[i]}: {url}, 共{page_list[i]}P:')
+        print(f'开始下载 《{title_list[i]}》: {url}, 共{page_list[i]}P:')
         if page_list[i] == 1:
             vd.download(url, fav_path, title_list[i])
         if page_list[i] > 1:
