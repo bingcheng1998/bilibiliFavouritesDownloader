@@ -1,0 +1,31 @@
+# HTTP Cookie File downloaded with cookies.txt by Genuinous @genuinous
+# This file can be used by wget, curl, aria2c and other standard compliant tools.
+# Usage Examples:
+#   1) wget -x --load-cookies cookies.txt "https://www.bilibili.com/video/BV1r4411f7td?p=4"
+#   2) curl --cookie cookies.txt "https://www.bilibili.com/video/BV1r4411f7td?p=4"
+#   3) aria2c --load-cookies cookies.txt "https://www.bilibili.com/video/BV1r4411f7td?p=4"
+#
+api.vc.bilibili.com	FALSE	/link_setting/v1/link_setting	FALSE	0	l	v
+api.vc.bilibili.com	FALSE	/dynamic_svr/v1/dynamic_svr	FALSE	0	l	v
+api.vc.bilibili.com	FALSE	/session_svr/v1/session_svr	FALSE	0	l	v
+message.bilibili.com	FALSE	/api/tooltip	FALSE	0	l	v
+manga.bilibili.com	FALSE	/eden	FALSE	0	finger	1443398814
+.bilibili.com	TRUE	/	FALSE	1623836548	_uuid	ED0DC1CA-2C3E-2AB3-0AA1-B8441D7E26C848309infoc
+.bilibili.com	TRUE	/	FALSE	1686908549	buvid3	EAFB10D0-1ED2-4DD3-A441-288FCA409C1D155809infoc
+.bilibili.com	TRUE	/	FALSE	1631066511	CURRENT_FNVAL	16
+.bilibili.com	TRUE	/	FALSE	1668121200	rpdid	|(u|JmummR~|0J&#039;ulmkJ||l)l
+.bilibili.com	TRUE	/	FALSE	1614336110	DedeUserID	57626460
+.bilibili.com	TRUE	/	FALSE	1614336110	DedeUserID__ckMd5	076a9e6fd71ec253
+.bilibili.com	TRUE	/	FALSE	253402300799	PVID	1
+.bilibili.com	TRUE	/	FALSE	1630321024	sid	6eswdz6c
+.bilibili.com	TRUE	/	FALSE	1614336110	SESSDATA	d02c2e43%2C1614337110%2Cdeb29*81
+.bilibili.com	TRUE	/	FALSE	1614336110	bili_jct	6529028b8066b8fbafe2652cb4b57bb6
+.bilibili.com	TRUE	/	FALSE	2177452799	LIVE_BUVID	AUTO8715987851121453
+.bilibili.com	TRUE	/	FALSE	1631066511	blackside_state	1
+.bilibili.com	TRUE	/	FALSE	1601648606	bp_video_offset_57626460	430430004520694656
+.bilibili.com	TRUE	/	FALSE	1601648607	bp_t_offset_57626460	430431018138226185
+www.bilibili.com	FALSE	/	FALSE	0	finger	1443398814
+.manga.bilibili.com	TRUE	/	FALSE	1631062315	Hm_lvt_a69e400ba5d439df060bf330cd092c0d	1599526316
+.manga.bilibili.com	TRUE	/	FALSE	0	Hm_lpvt_a69e400ba5d439df060bf330cd092c0d	1599526316
+.manga.bilibili.com	TRUE	/	FALSE	1631062315	Hm_lvt_6ab26a3edfb92b96f655b43a89b9ca70	1599526316
+.manga.bilibili.com	TRUE	/	FALSE	0	Hm_lpvt_6ab26a3edfb92b96f655b43a89b9ca70	1599526316
