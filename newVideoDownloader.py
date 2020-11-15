@@ -37,11 +37,13 @@ def getPartNames(url, pages):
 #     print(url, params, headers)
     response = hh.send_request(url, headers, params)
     list_json = json.loads(response.text)
-    assert len(list_json['data']) == pages
+    # assert len(list_json['data']) == pages, (len(list_json['data']), pages)
+    if len(list_json['data']) != pages:
+        print("error! (len(list_json['data']), pages) = ", (len(list_json['data']), pages))
     p_name = []
     for part in list_json['data']:
         p_name.append(part['part'])
-    return p_name
+    return p_name, len(list_json['data'])
 
 
 # In[36]:
@@ -65,8 +67,9 @@ def download(url, path, name):
     call(shell_run, shell=True)
 
 def playlist(url, path, pages):
-    p_name = getPartNames(url, pages)
+    p_name, pages = getPartNames(url, pages)
     for i in range(pages):
+        print(f'开始下载 {i}/{pages}')
         shell_run = f"you-get -o '{path}' -O '[P{i+1}].{validateTitle(p_name[i])}'         -c ./cookies.txt {url}?p={i+1}"
         print(shell_run)
         call(shell_run, shell=True)
